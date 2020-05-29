@@ -1,0 +1,14 @@
+publicclassAssignment10{ 
+publicstaticvoidmain(String[]args){
+     Stringa="Helloo";
+     Stringb="World123abc";
+        Stringbigger=a.length()>b.length()?a:b;
+     Stringsmaller=a.length()<b.length()?a:b;
+        StringBuffersb=newStringBuffer(); 
+         for(inti=0;i<smaller.length();i++){ 
+         sb.append(a.charAt(i)).append(b.charAt(i));
+      }
+        sb.append(bigger.substring(smaller.length(),bigger.length())); 
+        System.out.println(sb);
+      }
+}
